@@ -42,10 +42,11 @@ jogador_parado_superficies = []
 npc_index = 0 
 npc_parado_superficies = []
                                      
-                                     
-                                     
-                                     
-                                            
+ # Carrega a música
+pygame.mixer.music.load('WANDA/MUSICA/SUMMER.mp3')
+# play na musica
+pygame.mixer_music.play()                                 
+                                                             
 # Carrega o Personagem parado                                            
 for imagem in range(1, 7):
     img = pygame.image.load(f'WANDA/Samurai/PARADO/tile{imagem}.png').convert_alpha()
